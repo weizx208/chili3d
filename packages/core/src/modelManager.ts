@@ -49,6 +49,7 @@ export class ModelManager extends Observable {
 
     constructor(readonly document: IDocument) {
         super();
+        this.rootNode = this.initRootNode();
         this.materials.onCollectionChanged(this.handleMaterialChanged);
         this.components.onCollectionChanged(this.handleComponentChanged);
     }

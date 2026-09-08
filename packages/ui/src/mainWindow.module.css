@@ -118,12 +118,12 @@ chili3d-main-window {
     --background-color: #181818;
     --panel-background-color: #1f1f1f;
     --panel-hover-background-color: #323232;
-    --hover-background-color: rgba(255, 255, 255, 0.08);
+    --hover-background-color: rgba(255, 255, 255, 0.2);
     --active-background-color: rgba(255, 255, 255, 0.15);
     --titlebar-forground-color: #ffffff;
     --titlebar-background-color: #1a1a1a;
     --title-background: rgba(255, 255, 255, 0.08);
-    --title-checked: #2a2a2a;
+    --title-checked: rgba(255, 255, 255, 0.3);
     --statusbar-foreground-color: #ffffff;
     --statusbar-background-color: #1a1a1a;
     --viewport-background-color: #242424;
